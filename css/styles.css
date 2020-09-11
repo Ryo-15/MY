@@ -1,13 +1,25 @@
-.btn {
-  width: 100px;
-  background-color: skyblue;
-  text-align: center;
-  padding: 4px;
-  color: white;
-  cursor: pointer;
+/* main > :nth-child(3) {
+  background-color: pink;
+} */
+
+/* main > :nth-child(3n) {
+  background-color: pink;
+} */
+
+/* main > :nth-child(odd) {
+  background-color: pink;
 }
 
-.btn:hover {
-  opacity: 0.8;
+main > :nth-child(even) {
+  background-color: skyblue;
+} */
+
+main > :first-child {
+  background-color: pink;
 }
+
+main > :last-child {
+  background-color: skyblue;
+}
+
 
