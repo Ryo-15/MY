@@ -1,7 +1,11 @@
-/* [target] { */
-/* [href="#top"] { */
-/* [href^="https"] { */
-/* [href$="dotinstall"] { */
-[href*="com"] {
-  font-weight: bold;
+h1::before,
+h2::before {
+  content: '- ';
 }
+
+h1::after,
+h2::after {
+  /* content: ' -'; */
+  content: attr(data-subtitle);
+}
+
