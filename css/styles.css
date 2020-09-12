@@ -1,9 +1,7 @@
-/* li:empty {
-  background: skyblue;
-} */
-
-li:not(:empty) {
-  background: skyblue;
-}
+#about > #main { color: gray; }
+h1 { color: red; }
+h1#main.box { color: yellow; }
+section > #main.title { color: blue; }
+section#about > h1 { color: pink; }
 
 
